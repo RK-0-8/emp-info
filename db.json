@@ -1,0 +1,45 @@
+{
+  "employees": [
+    {
+      "name": "Raja",
+      "mobile": "9876543210",
+      "designation": "Developer",
+      "salary": "45000",
+      "doj": "2020-10-01",
+      "id": "1881"
+    },
+    {
+      "name": "kumar",
+      "mobile": "9876543210",
+      "designation": "Developer",
+      "salary": "65000",
+      "doj": "2025-10-28",
+      "id": "9aed"
+    },
+    {
+      "name": "Ranjith",
+      "mobile": "567",
+      "designation": "gm",
+      "salary": "7767",
+      "doj": "2025-09-30",
+      "id": "1c9b"
+    },
+    {
+      "id": "37e1",
+      "name": "Dev",
+      "mobile": "9876443210",
+      "designation": "Developer",
+      "salary": "50000",
+      "doj": "2025-10-21"
+    },
+    {
+      "id": "f223",
+      "name": "prakash",
+      "mobile": "9876543210",
+      "designation": "3d animation",
+      "salary": "3000",
+      "doj": "2025-12-01"
+    }
+  ],
+  "users": []
+}

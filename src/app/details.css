@@ -1,0 +1,104 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Playfair+Display:ital,wght@0,400;0,700;1,600&display=swap');
+:root{
+  --heading-font: "Playfair Display", serif;
+  --ui-font: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  --muted: #6b7280;
+  --text: #0f172a;
+  --accent: linear-gradient(90deg,#7c3aed,#06b6d4);
+}
+
+#header, #body, #body p, h2 {
+  font-family: var(--ui-font);
+  color: var(--text);
+}
+
+
+
+#header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 20px;
+    padding: 40px 20px;
+}
+
+h2{
+    text-align: center;
+    margin: 0;
+    color: #333;
+}
+#body{
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    max-width: 500px;
+    text-align: left;
+}
+
+#body p{
+    margin: 12px 0;
+    font-size: 16px;
+    color: #555;
+}
+
+#header button,
+#header a {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+#header button {
+    background-color: #dc3545;
+    color: white;
+}
+
+#header button:hover {
+    background-color: #c82333;
+}
+
+#header a {
+    background-color: #007bff;
+    color: white;
+}
+
+#header a:hover {
+    background-color: #0056b3;
+}
+
+/*#body:hover{
+    transform: scale(1.08); /* "zoom big" 
+    box-shadow: 0 12px 30px rgba(0,0,0,0.18);
+    z-index: 10;
+}*/
+
+
+
+#body p + p{
+    border-top: 1px solid rgba(15,23,42,0.04);
+    padding-top: 12px;
+    margin-top: 12px;
+}
+
+#body:hover{
+    transform: translateY(-6px) scale(1.02);
+    box-shadow: 0 24px 60px rgba(16,24,40,0.20);
+    z-index: 10;
+}
+
+#body p{
+    margin: 12px 0;
+    font-size: 16px;
+    color: #1f2937; 
+    line-height: 1.5;
+}
+
+
